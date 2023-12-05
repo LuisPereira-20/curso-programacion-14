@@ -1,7 +1,13 @@
 /* comentario inicial */
+:root{
+    --main_color: orange;
+    --second_color: black;
+
+}
 
 h3 {
-    color: blueviolet;
+    color: var(--main_color);
+    background-color: var(--second_color);
 }
 
 #container {
@@ -10,4 +16,27 @@ h3 {
 
 .subtitulo{
     color: burlywood;
+}
+
+ul li h2{
+    color: goldenrod;
+}
+
+#prueba{
+    width: 200px;
+    height: 200px;
+    background-color: var(--main_color);
+    font-weight: 900;
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: cornflowerblue;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    line-height: 50px;
+}
+p{
+    color: var(--second_color);
 }
