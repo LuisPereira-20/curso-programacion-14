@@ -3,8 +3,16 @@
     --main_color: orange;
     --second_color: black;
 
+} 
+
+*{
+    margin: 0;
+    padding: 0; 
 }
 
+body{
+    padding: 30px 55px;
+}
 h3 {
     color: var(--main_color);
     background-color: var(--second_color);
@@ -35,7 +43,21 @@ ul li h2{
     text-transform: uppercase;
     letter-spacing: 10px;
     word-spacing: 20px;
-    line-height: 50px;
+    line-height: 50px; 
+   /* border-color: var(--second_color);
+    border-style: ridge;
+    border-width: 30px;*/
+    border: 50px var(--second_color) ridge;
+    border-radius: 125px;
+    /*Margen es la distancia de un elemento a otro*/
+    margin: 100px 62px 0 20px;
+    /*padding es la distancia del borde de la caja 
+    respecto a su contenido*/
+    padding: 140px;
+    min-width: 75px;
+    min-height: 50px;
+    max-width: 140px;
+    max-height: 250px;
 }
 p{
     color: var(--second_color);
