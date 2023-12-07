@@ -58,6 +58,7 @@ ul li h2{
     min-height: 50px;
     max-width: 140px;
     max-height: 250px;
+    opacity: 65%;
 }
 p{
     color: var(--second_color);
