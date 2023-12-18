@@ -1,0 +1,19 @@
+.cubo{
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    animation-name: cubo;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cubo{
+    0% {background-color: cyan, top 200px, left 200px}
+    25% {background-color: rgb(144, 73, 211), top 450px, left 290px}
+    50% {background-color: rgb(255, 0, 128), top 320px, left 410px}
+    75% {background-color: rgb(60, 218, 112), top 100px, left 220px}
+    100% {background-color: cyan, top 200px, left 200px}
+}

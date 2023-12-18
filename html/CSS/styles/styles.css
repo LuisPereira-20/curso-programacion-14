@@ -66,9 +66,34 @@ ul li h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(./descarga\ \(1\).jpg);
 }
 p{
     color: var(--second_color);
+}
+
+#padre p {
+    color: var(--main_color);
+}
+
+input:focus{
+    outline: 5px solid var(--main_color);
+}
+
+p::first-letter{
+    color: gray;
+}
+
+p::first-line{
+    color: gold;
+}
+
+p::before{
+    content: "Hola";
+}
+
+p::after{
+    content: "Chao";
 }
 
 
